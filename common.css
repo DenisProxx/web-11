@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+.logo {
+  width: 48px;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
