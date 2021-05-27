@@ -1,0 +1,20 @@
+.container {
+	padding: 15px;
+	max-width: 450px;
+	margin: 0 auto;
+	background-color: rgb(240, 235, 235);
+}
+
+.black {
+	color: #000;
+}
+
+.red {
+	color: red;
+}
+
+.card {
+	background-color: rgb(192, 189, 189);
+	font-size: 40px;
+	padding: 10px;
+}
