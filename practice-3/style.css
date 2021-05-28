@@ -1,0 +1,19 @@
+.winter-list {
+  list-style-image: url("./winter_16.png");
+}
+.spring-list {
+  list-style-image: url("./spring_16.png");
+}
+.summer-list {
+  list-style-image: url("./summer_16.png");
+}
+.autumn-list {
+  list-style-image: url("./autumn_16.png");
+}
+.year {
+  list-style-type: none;
+}
+
+.year-item::before {
+  content: "+";
+}
