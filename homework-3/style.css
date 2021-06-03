@@ -1,0 +1,13 @@
+.red{
+color: red;    
+}
+.line li{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    display:inline;
+   
+ }
+.block{
+    background-color: rgb(226, 218, 218);
+}
