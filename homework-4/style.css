@@ -1,0 +1,29 @@
+.main{
+    margin:0 auto;
+    max-width: 600px;
+    border: 20px solid #f7f6f6;
+}
+.block{
+    background:  rgb(248,190,200);
+    padding: 15px;
+}
+.list{
+    padding: 0;
+    list-style-type: none;
+}
+li::before{
+    content: counter(item)".";
+    color: #fff;
+}
+li {
+    color: #fff;
+    margin-bottom: 10px;
+    background: rgb(204, 124, 124);
+    padding: 10px 0 10px 15px;
+    counter-increment: item;
+  }
+  span {
+    margin-left: 15px;
+    padding: 10px;
+    background: rgb(180, 80, 80);
+  }
