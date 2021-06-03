@@ -1,0 +1,53 @@
+.conteiner{
+    background-color: rgb(247, 241, 241);
+    width: 400px;
+   
+}
+.uncheked-color-blue{
+    background-color: rgb(109, 176, 221);
+}
+.cheked-color-gray{
+    background-color: rgb(197, 190, 190);
+}
+.uncheked-color-blue1{
+    background-color: rgb(135, 202, 207);
+}
+.uncheked-color-blue::before{
+content:'\2610';
+width: 15px;
+height: 15px;
+float: left;
+margin-right: 10px;
+position: relative;
+}
+.uncheked-color-blue1::before{
+    content:'\2610'; 
+    width: 15px;
+height: 15px;
+float: left;
+margin-right: 10px;
+position: relative;
+}
+.cheked-color-gray::before{
+    content:'\2611';
+    width: 15px;
+height: 15px;
+float: left;
+margin-right: 10px;
+position: relative;
+}
+li::after{
+    content:'\2715';
+    color: red;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 1px 0 0 20px;
+    
+    
+    
+}
+li{
+    list-style-type: none;
+    padding-left: 20px;  
+}
