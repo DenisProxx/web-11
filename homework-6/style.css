@@ -1,0 +1,17 @@
+.conteiner{
+    background-color: rgb(245, 240, 240);
+    
+}
+.colortext{
+    color: gray;
+}
+dd{
+    margin-left: auto;
+    margin-right: auto;
+}
+dt{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
