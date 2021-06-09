@@ -1,0 +1,14 @@
+body {
+  background-image: url(../image/fcb870e1cb5ae5a075a12859f5ba05ec.jpg);
+  margin: 0px;
+
+  background-attachment: fixed;
+}
+.main {
+  background-color: rgb(69, 117, 69);
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 1000px;
+  opacity: 95%;
+  color: white;
+}
