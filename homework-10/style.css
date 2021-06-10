@@ -1,0 +1,72 @@
+ul {
+list-style-type: none;
+margin: 0 30px;
+columns:3 ;
+margin-left: 50px;
+
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color:#2A4F6E;
+    height: 150px;
+    width:100%;
+    padding-top:20px;
+  
+    
+}
+a{
+    color:white
+}
+.text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+ padding-right: 30px;
+
+}
+
+.Facebook{
+    content: url(/homework-10/fb_gray.png);
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+  
+    
+}
+.Facebook:hover{
+    content: url(/homework-10/fb.png);
+}
+.Instagram{
+    content: url(/homework-10/insta_gray.png);
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.Instagram:hover{
+    content: url(/homework-10/insta.png);
+}
+.Youtube{
+    content: url(/homework-10/youtube_gray.png);
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+   
+}
+.Youtube:hover{
+    content: url(/homework-10/youtube.png);
+}
+.icon{
+    display:flex;
+    margin-left: 650px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+  
+ 
+
+}
