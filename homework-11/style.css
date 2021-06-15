@@ -1,0 +1,47 @@
+.clock{
+position: relative;
+width: 200px;
+height: 200px;
+margin: 2em;
+border: 4px solid #009B95;
+border-radius: 50%;
+}
+.centr{
+position: absolute;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+top: 130px;
+left: 135px;
+background: #009B95;
+}
+.hour{
+position: absolute;
+width: 4px;
+height: 50px;
+left: 139px;
+top: 86px;
+background: #009B95;
+animation: hour 60s infinite steps(20);
+transform-origin:center 50px 50px;
+}
+@keyframes hour{
+    100%{
+        transform:rotateZ(360deg);
+    }
+}
+.minutes{
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    left: 139px;
+    top: 60px;
+    background:#009B95;
+    animation: min 40s infinite steps(50);
+    transform-origin:center 75px 75px;
+}
+@keyframes min{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
