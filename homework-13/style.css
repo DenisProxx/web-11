@@ -1,0 +1,58 @@
+.container {
+    display: inline-block;
+    width: 600px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    }
+.block{
+   
+    padding: 10px;
+    font-size: 14px;
+    margin:0;
+    width: 200px;
+    height: 100px;
+    border-radius: 1px;
+    background-color: rgb(248, 242, 242);
+    display: inline-block;
+    overflow: hidden;
+    }
+.image{
+    width: 219px;
+    height: 120px;
+    display:block;
+    overflow: hidden;
+    padding: 20px 10px ;
+    margin-left: -20px;
+    margin-top: -20px;
+    position: absolute;
+    top: 1px;
+   }
+ p{
+    padding: 15px 25px; 
+    width: 300px;
+    height:200px ;
+    font-size: 20px;
+ }
+ .text1:hover{
+    filter: brightness(50%);
+    transition-duration: 0.3s;
+    
+ }
+ .text:hover{
+    filter: opacity(40%);
+    transition-duration: 0.3s;
+ }
+ .image:hover {
+    
+    overflow: hidden;
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+ .image1:hover {
+    filter: brightness(50%);
+    overflow: hidden;
+    transform: scale(1.1);
+    transition-duration: 3s;
+ 
+ }
