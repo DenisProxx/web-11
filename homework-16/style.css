@@ -1,0 +1,95 @@
+body {
+	margin: 115px;
+	padding: 0;
+	
+}
+
+.main {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-around;
+}
+
+.card {
+	width: 200px;
+	background-color: #fff;
+	border-radius: 5%;
+	box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 -55px 0 -55px;
+	transition: transform 1s ease-in-out;
+}
+
+
+.card__title {
+	font-size: 15px;
+	font-weight: 900;
+	padding: 15px;
+	border-bottom: 2px solid rgb(197, 14, 14);
+}
+
+.card__price {
+	font-size: 44px;
+	font-weight: 900;
+	padding: 15px;
+}
+
+.card__subtitle {
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 15px;
+}
+
+.card__text {
+	font-weight: 900;
+	font-size: 12px;
+	padding: 0;
+	margin: 5px;
+}
+
+.button {
+	margin: 15px auto 15px auto;
+	padding: 5px;
+	width: 70px;
+	background-color:#C73756;
+	border: 0;
+	border-radius: 5px;
+}
+
+.button__link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.yellow {
+	border-bottom: 2px solid #D7913B;
+}
+
+.yellow__button {
+	background-color: #D7913B;
+}
+
+.blue {
+	border-bottom: 2px solid #2B6689;
+}
+
+.blue__button {
+	background-color: #2B6689;
+	;
+}
+
+.green {
+	border-bottom: 2px solid #CCDF9A;
+}
+
+.green__button {
+	background-color: #CCDF9A;
+	;
+}
+
+.card:hover {
+	transform: scale(120%);
+	transition: transform 1s ease-in-out;
+}
