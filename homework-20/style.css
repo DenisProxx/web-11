@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ADD8E6;
+   
+    
+  }
+  
+  .block__inner {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 5px;
+
+  }
+  
+  .block__column {
+    width: 33.333%;
+    padding: 15px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  .img{
+    width: 100%;
+  }
+  p,strong{
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: -4px;
+  }
