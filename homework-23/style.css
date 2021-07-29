@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	padding-top: 100px;
+	justify-content: center;
+}
+
+.icon-one {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.icon-two {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.one-card {
+	margin-bottom: 50px;
+	display: flex;
+}
+
+.two-card {
+	display: flex;
+	padding-top: 60px;
+}
+
+.wrapper {
+	padding-top: 15px;
+}
+
+.time {
+	opacity: 0.5;
+}
+
+.chat {
+	padding: 15px;
+	margin: 15px 0 15px 0;
+
+}
+
+.blue {
+	background-color:#ADD8E6;
+	border-radius: 10px 10px 0px 10px;
+}
+
+.red {
+	background-color: #FFB6C1;
+	border-radius: 10px 10px 10px 0;
+}
