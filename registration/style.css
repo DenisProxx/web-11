@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+display:flex;
+width:1000px;
+height: 350px;
+background-color:white;
+box-shadow: 0 0 5px;          
+margin:0;
+padding: 0;
+}
+.column {
+margin: 0 20px;
+height: 300px;
+}
+.user{
+outline: none;
+border: none;
+border-bottom: solid 1px #c9c5c5;
+margin-bottom: 60px;
+margin-top: 30px;
+margin-left: 30px;
+width: 350px;
+}
+.user_img{
+width: 30px; 
+height:30px; 
+position: absolute;
+top: 45px;
+left: 20px;
+}
+.email{
+position:relative;
+bottom: 30px;
+outline: none;
+border: none;
+border-bottom: solid 1px #c9c5c5;
+margin-bottom: 60px;
+margin-top: 5px;
+margin-left: 30px;
+width: 350px;
+}
+.email_img{
+width: 30px; 
+height:30px; 
+position: absolute;
+top: 100px;
+left: 20px;
+}
+.password{
+position:relative;
+bottom: 30px;
+outline: none;
+border: none;
+border-bottom: solid 1px #c9c5c5;
+margin-bottom: 60px;
+margin-top: 0px;
+margin-left: 30px;
+top: -55px;
+}
+.password_img{
+width: 30px; 
+height:30px; 
+position: absolute;
+top: 155px;
+left: 20px;
+}
+.first{
+position: relative;
+right: 30px;
+outline: none;
+border: none;
+border-bottom: solid 1px #c9c5c5;
+margin-bottom: 60px;
+margin-top: 30px;
+margin-left: 30px;
+}
+.last{
+position: relative;
+right: 30px;
+outline: none;
+border: none;
+border-bottom: solid 1px #c9c5c5;
+margin-bottom: 60px;
+margin-top: 30px;
+margin-left: 30px;    
+}
+.gender{
+position:relative;
+bottom: 30px;
+outline: none;
+border: none;
+border-bottom: solid 1px #c9c5c5;
+margin-bottom: 60px;
+margin-top: 5px;
+margin-left: 1px;
+width: 160px;
+}
+.date{
+position:relative;
+bottom: 30px;
+outline: none;
+border: none;
+border-bottom: solid 1px #c9c5c5;
+margin-bottom: 60px;
+margin-top: 5px;
+margin-left: 30px;
+width: 160px;
+}
+.chekbox{
+margin-top:-80px;
+}
+.button{
+    background-color: #008B8B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 65%;
+  }
+ 
