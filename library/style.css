@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+}
+.one{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+.two{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid #81C686;
+    border-radius: 4px;
+    background-image: url('/library/valid.png');
+    background-position:90%;
+    background-size: 10%; 
+    background-repeat: no-repeat;
+}
+.two::-webkit-input-placeholder {color:#81C686;}
+.three{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid #E97F94;
+    border-radius: 4px;
+    background-image: url('/library/invalid.png');
+    background-position:90%;
+    background-size: 10%; 
+    background-repeat: no-repeat;
+}
+.three::-webkit-input-placeholder {color:#E97F94;}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    padding-left: 10px;
+  }
+  .slider.round {
+    border-radius: 5px;
+    
+  }
+  .slider.round:before {
+    border-radius: 25%;
+    width: 30px;
+    height: 20px;
+    margin-bottom: -2px;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border:1px solid #41AD49;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .Subscribe{
+    position: absolute;
+    padding-left:55px;
+    top: 5px;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 30px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #41AD49;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color: white;
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .box{
+    margin-left: 70px;
+  }
+  .cont{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: 1px solid #E97F94;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .cont:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 30px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #E97F94;
+    -webkit-transition: .4s;
+    transition: .4s;
+  } 
+  .gender{
+  padding: 10px;
+  }
+  input[type="radio"]:checked, 
+  input[type="radio"]:not(:checked) 
+  {
+      position: absolute; 
+  }
+  input[type="radio"]:checked + label, 
+  input[type="radio"]:not(:checked) + label {
+      display: inline-block;
+      position: relative;
+      padding-left: 28px;
+      line-height: 20px;
+      cursor: pointer;
+  }
+  input[type="radio"]:checked + label:before, 
+  input[type="radio"]:not(:checked) + label:before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 18px;
+      height: 19px;
+      border: 1px solid #41AD49;
+      background-color:white;
+  }
+  input[type="radio"]:checked + label:before, 
+  input[type="radio"]:not(:checked) + label:before {
+      border-radius: 100%;
+  }
+  input[type="radio"]:checked + label:after, 
+  input[type="radio"]:not(:checked) + label:after {
+      content: "";
+      position: absolute; 
+  }
+  input[type="radio"]:checked + label:after, 
+  input[type="radio"]:not(:checked) + label:after {
+      left: 2.5px;
+      top: 3px;
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      background-color: #41AD49;
+  }
+  input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px ;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+  }
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+    opacity: 1;
+  }
+  .button1 {
+    background-color: #2C7731;
+    border: none;
+    border-radius: 15px ;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+  }
+  .button1:hover {
+    background-color: #2C7731;
+    color: white;
+    opacity: 1;
+  }
+  .button2 {
+    background-color: #E44061;
+    border: none;
+    border-radius: 15px ;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+  }
+  .button2:hover {
+    background-color: #E44061;
+    color: white;
+    opacity: 1;
+  }
+  .button3 {
+    background-color: #97293F;
+    border: none;
+    border-radius: 15px ;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+  }
+  .button3:hover {
+    background-color: #97293F;
+    color: white;
+    opacity: 1;
+  }
+  .button4 {
+    background-color: #7C7C7C;
+    border: none;
+    border-radius: 15px ;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+  }
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  .button5 {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+  }
+  .button5:hover {
+    background-color: #4CAF50;
+    color: white;
+    opacity: 1;
+  }
+  .button6 {
+    background-color: #E44061;
+    border: none;
+    border-radius:50% ;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+  }
+  .button6:hover {
+    background-color: #E44061;
+    color: white;
+    opacity: 1;
+  }
+
+  
+
