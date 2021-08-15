@@ -1,0 +1,88 @@
+.comp{
+    width: 73px;
+    height: 73px;
+    }
+    .avatar{
+     position: relative;
+     left:65%;
+     bottom: 1px;
+    }
+    .navbar{
+    height: 80px; 
+    } 
+    .nav-link{
+    margin-bottom: 5px;
+    color: white !important;
+    }
+    .navbar-brand{
+    position: relative;
+    left: 30px;
+    }
+    .header{
+    background-color: #1B5589 !important;
+    }
+    .tittle{
+    text-align: center;
+    margin: 25px;
+    padding-left: 20px;
+        }
+    .block_1{
+    position: relative;
+    left: 80%;
+    bottom: 60px;
+    }
+    .circle {
+    height: 10px;
+     width: 10px;
+    border-radius: 50%; 
+    }
+    .white {
+    background-color:white;
+    position: relative;
+    left:100px;
+    top: 18px;
+    border: 1px solid rgb(211, 210, 210);
+    }
+    .green{
+    background-color:green;
+    position: relative;
+    left:100px;
+    top: 18px;
+    border: 1px;   
+    }
+    .blue{
+    background-color:blue;
+    position: relative;
+    left:100px;
+    top: 18px;
+    border: 1px;
+    }
+    .pink{
+    background-color:pink;
+    position: relative;
+    left:100px;
+    top: 18px;
+    border: 1px;
+    }
+    .one{
+    background: url(/Bootstrap-2/get\ app.png) no-repeat left;
+    width: 100px;
+    }
+    .two{
+    background: url(/Bootstrap-2/delete.png) no-repeat left;
+    width: 100px;  
+    }
+    .wrapp_one{
+    background-color: #36AFC0;
+    }
+   .wrapp_two{
+    background-color: #F98691;
+   }
+   .wrapp_three{
+    background-color: #6FD084;
+   }
+    
+    
+   
+
+   
