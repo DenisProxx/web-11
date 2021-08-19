@@ -1,0 +1,67 @@
+.logo{
+    position: relative;   
+    left: 77%;
+    width:60px;
+    height:60px;
+   }
+   .right{
+    margin-right: 10px;   
+   }
+   .small{
+   position: relative;
+   top: 10px;
+   }
+   .sidebar{
+   position: relative;
+   right: 15px;
+   }
+   .badge {
+   position: relative; 
+   top: 12px; 
+   }
+   .card-panel{
+   position: relative; 
+   width: 100px;
+   height: 100px; 
+   left:500px;
+   border: 1px solid gray;  
+   }
+   .row{
+   position: relative;
+   left: 300px; 
+   width:300px;
+   bottom: 67px;
+   }
+   .icon{
+   position: relative;
+   left:230px;
+   color:#0161A3;
+   }
+   .card-panel{
+   position: relative;
+   bottom: 185px;
+   width: 800px;
+   height: 300px;
+   left: 250px;
+   } 
+   .picture{
+   position: relative;    
+   width: 800px;
+   right: 25px;
+   height: 200px;
+   bottom: 25px;
+   }
+   .item{
+   position: relative;
+   bottom: 25px;    
+   }
+   .text{
+   position: relative; 
+   bottom: 30px;   
+   }
+   .details{
+   position: relative;  
+    bottom: 50px;
+    left: 650px;
+   }
+   
