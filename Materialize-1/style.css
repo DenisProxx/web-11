@@ -1,0 +1,125 @@
+.logo{
+ position: relative;   
+ left: 77%;
+ width:60px;
+ height:60px;
+}
+.right{
+ margin-right: 10px;   
+}
+.small{
+position: relative;
+top: 10px;
+}
+.sidebar{
+position: relative;
+right: 15px;
+}
+.badge {
+position: relative; 
+top: 12px; 
+}
+.img{
+position: relative;   
+width:150px ;
+height:150px ;
+bottom: 190px;
+left: 30px;
+
+}
+.btn{
+position: relative;
+bottom: 200px;
+left: 30px;
+width: 150px;
+}
+.block{
+position: relative;
+border: 1px solid rgb(223, 217, 217); 
+width: 210px;
+height: 210px; 
+left: 250px; 
+bottom: 25px; 
+}
+.block1{
+position: relative;
+border: 1px solid rgb(223, 217, 217); 
+width: 215px;
+left: 246px;
+height: 250px;
+bottom: 40px;
+}
+.section_wrapp{
+position: relative;
+left: 600px;
+bottom: 520px;
+border: 1px solid rgb(223, 217, 217); 
+width: 50%;
+left: 500px;
+}
+.one{
+margin-bottom: 10px;    
+}
+.two{
+margin-bottom: 10px; 
+}
+.info{
+position: relative;
+top: 5px;
+padding-left: 15px;
+}
+.date{
+padding-left: 70px;    
+}
+.city{
+padding-left: 100px;    
+}
+.name{
+padding-left: 15px;    
+}
+.list{
+display: inline-block;
+margin-bottom: 5px;  
+padding-left: 20px;
+margin-top: 20px;
+}
+.number{
+position: relative;
+top: 20px;
+padding-left: 56px;
+font-size: 20px;
+}
+.text{
+padding-left:50px;
+}
+.number23{
+position: relative;
+padding-left: 69px;
+top: 20px;
+font-size: 20px;
+ 
+}
+.number456{
+position: relative;
+top: 20px;    
+padding-left: 63px;
+font-size: 20px;    
+}
+.Luella{
+position: relative;
+bottom: 35px;
+}
+.month{
+position: relative;
+left: 70px;
+bottom: 40px;
+}
+.lorem{
+position: relative;
+bottom: 30px;
+padding-left: 10px;    
+}
+.icon_color{
+color: #FFB34B;
+padding-left: 10px;
+}
