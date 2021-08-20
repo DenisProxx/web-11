@@ -1,0 +1,55 @@
+.logo{
+    position: relative;   
+    left: 77%;
+    width:60px;
+    height:60px;
+   }
+   .right{
+    margin-right: 10px;   
+   }
+   .small{
+   position: relative;
+   top: 10px;
+   }
+   .sidebar{
+   position: relative;
+   right: 15px;
+   }
+   .badge {
+   position: relative; 
+   top: 12px; 
+   }
+ .chat-box{
+  position: relative; 
+  width: 250px;
+  left: 220px;
+  bottom: 130px;
+
+ }
+ .chat_text{
+  position: relative;
+  bottom: 20px;   
+ }
+.right-align{
+ position: relative;
+ bottom: 850px;   
+}
+.input-field{
+position: relative;
+bottom: 500px;
+}
+.row_two{
+position: relative;
+left: 460px;
+width: 500px;    
+}
+.btn{
+position: relative; 
+bottom: 80px;
+left: 500px;   
+}
+
+
+
+
+
